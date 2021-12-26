@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+      /* Section Fitst */
+
+
+.hh1{
+    font-size: 65px;
+    color:blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /* padding-right: 5px; */
+}
+.hh2{
+    font-size: 20px;
+    color:rgb(49, 49, 49);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+}
+.text-left{
+    padding-left: 50px;
+}
+
+.contfld{
+    background-image: url("../images/bg1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+@media only screen and (max-width:360px){
+    
+    .img-fluid {
+        
+            max-width: 90%;
+            height: 149px;
+        
+    }
+    .hh1 {
+        font-size: 42px;
+        color: blue;
+        
+    }
+    .hh2 {
+        font-size: 20px;
+        color: rgb(49, 49, 49);
+    }.contfld{
+        background-image: url("../images/bg1.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 37vh;
+    }
+    p{
+        font-size: 15px;
+    }
+    .text-left {
+        padding-left: 18px;
+    }
+
+}
+
+
+/* .contentTwo{
+    background-image: url("../images/Untitled-3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+  
+} */
+
+          /* Section Two */
+
+.sec1{
+    background-image: url("../images/Untitled-3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.img-responsive {
+    width: 120px;
+    height: 120px;
+   
+}
+
+
+
+@media only screen and (max-width:360px){
+    .sec1{
+        height: 309vh;
+        
+        margin-top:286px;
+    }
+    .img-responsive {
+        width: 94px;
+        height: 93px;
+    }
+    .logohead{
+        font-size: 18px;
+    }
+    .col-3{
+        padding: 0px 0px;
+    }
+    .raw{
+        
+            margin-top: -62px;
+      
+    }
+}
+
+
+        /* Section Three */
+
+        .contentThri{
+            width:100%;
+            height: 70vh;
+            background-color: #ebebeb;
+        }
+
+
+
+        /* Section Four */
+
+.contentfor{
+    width:100%;
+    height: 70vh;
+    background-color: blue;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.img-fluid{
+    width: 545px;
+    height: 437px;
+}
